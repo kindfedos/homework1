@@ -5,6 +5,7 @@ var numberA = Convert.ToInt32(Console.ReadLine());
 var numberB = Convert.ToInt32(Console.ReadLine());
 
 
+
 if (numberA >  numberB)
 
 {
@@ -19,4 +20,8 @@ else
     Console.Write("max=");
     Console.WriteLine(numberB);
 }
-
+if (numberA ==  numberB)
+{
+    Console.WriteLine ();
+    Console.Write("числа равны");
+}
